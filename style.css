@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: #ffe9e9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero {
+    background: url('public/robertaleal_compressed.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+@media (min-width: 480px) {
+    & h1{
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    & p{
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    & .buttons{
+        width: 100%;
+    }
+    
+}
+}
+
+.overlay {
+    align-items: center;
+    /* alinha verticalmente (eixo cruzado) */
+    height: 100%;
+    /* só para exemplo visual */
+    align-content: flex-end;
+    margin-bottom: 220px;
+    justify-items: flex-start;
+   width: 100%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left: 32px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+    color: #fff;
+    margin-left: 32px;
+
+}
+
+
+.buttons {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin: auto;
+    -webkit-tap-highlight-color: transparent;
+}
+.btn:active{
+transform: scale(0.95);
+}
+.btn-outline:active{
+transform: scale(0.95);
+}
+.btn,
+.btn-outline {
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.1s ease;
+}
+
+.btn {
+    background: #f381c5;
+    color: white;
+    border: 2px solid white;
+    text-wrap: nowrap;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+     -webkit-tap-highlight-color: transparent;
+    transition: transform 0.1s ease;
+}
+
+.btn-outline {
+    border: 2px solid #f381c5;
+    color: #f381c5;
+    background: #fff;
+    text-wrap: nowrap;
+    width: 150px;
+    transition: transform 0.1s ease;
+}
+
+section {
+    padding: 3rem 1.5rem;
+    max-width: 1000px;
+    margin: auto;
+    width: 100svw;
+    height: 100%;
+    overflow: hidden;
+}
+
+.about h2 span {
+    color: #f381c5;
+    color: #D65CAD;
+    font-feature-settings: 'dlig' on;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    /* 100% */
+}
+
+.about ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: #74004E;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 218.182% */
+    letter-spacing: 1px;
+}
+
+.services h2 {
+    color: #D65CAD;
+    font-feature-settings: 'dlig' on;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    font-family: "Rouge Script";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 70% */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.service-box {
+
+    background: color-mix(in srgb, #E5A3DC 100%, white 60%);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.course ul {
+    list-style: square;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.testimonials {
+    background: #ffd1e7;
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+
+.testimonial-box {
+    background: #fff;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.cta {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.cta img {
+    margin-top: 1rem;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.footer {
+    background: #ffd1e7;
+    text-align: center;
+    padding: 1rem;
+}
+
+.socials img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.style {
+    color: #74004E;
+    font-feature-settings: 'dlig' on;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+.style-h2{
+    color: #D65CAD;
+font-feature-settings: 'dlig' on;
+text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+font-family: "Plus Jakarta Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
