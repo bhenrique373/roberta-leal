@@ -231,3 +231,21 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+
+.spacer {
+  height: 100vh; /* espaço para rolar */
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 1s ease;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 50px;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
