@@ -81,38 +81,35 @@ body {
 }
 
 .btn {
-    background: #f381c5;
-    color: white;
-    border: 2px solid white;
+    background: #f381c5 !important;
+    color: white !important;
+    border: 2px solid white !important;
 }
 
 .btn-outline {
-    background: #fff;
-    color: #f381c5;
-    border: 2px solid #f381c5;
+    background: #fff !important;
+    color: #f381c5 !important;
+    border: 2px solid #f381c5 !important;
 }
 
 .btn,
 .btn-outline {
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 700;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 14px;
-    /* fonte um pouco menor */
-    padding: 4px 8px;
-    /* menos padding, botões menores */
-    display: inline-flex;
-    /* inline-flex para se ajustar ao conteúdo */
-    justify-content: center;
-    align-items: center;
-    white-space: nowrap;
-    -webkit-tap-highlight-color: transparent;
-    transition: transform 0.1s ease;
-    box-sizing: border-box;
-    min-width: 110px;
-    /* largura mínima para manter uniformidade */
+    border-radius: 30px !important;
+    text-decoration: none !important;
+    font-weight: 700 !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 14px !important;
+    padding: 4px 8px !important;
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    white-space: nowrap !important;
+    -webkit-tap-highlight-color: transparent !important;
+    transition: transform 0.1s ease !important;
+    box-sizing: border-box !important;
+    min-width: 110px !important;
 }
+
 
 section {
     padding: 3rem 1.5rem;
