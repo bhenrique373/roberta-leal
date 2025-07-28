@@ -24,6 +24,7 @@ body {
         & h1 {
             width: 100%;
             margin-left: 0 !important;
+            overflow: hidden;
         }
 
         & p {
@@ -130,6 +131,7 @@ section {
     font-style: normal;
     font-weight: 800;
     line-height: 24px;
+
     /* 100% */
 }
 
@@ -194,6 +196,7 @@ section {
     padding: 1rem;
     max-width: 600px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .cta {
@@ -238,6 +241,7 @@ section {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transition: all 0.5s ease;
 }
 
 .spacer {
